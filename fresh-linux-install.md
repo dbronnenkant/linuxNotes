@@ -1,4 +1,7 @@
 # Debian 9 Net Install
+# Debian Backgound
+https://wallup.net/linux-debian-9/
+https://goo.gl/images/tL141f
 
 # Install Additional Packages
 su -
