@@ -28,7 +28,7 @@ sudo apt -y install sublime-text
 sudo vim /etc/apt/sources.list
 # Add these 2 lines:
 # deb http://deb.torproject.org/torproject.org stretch main
-# deb http://deb.torproject.org/torproject.org stretch main
+# deb-src http://deb.torproject.org/torproject.org stretch main
 sudo gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 sudo gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 sudo apt update
