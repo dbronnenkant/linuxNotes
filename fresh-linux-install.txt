@@ -5,7 +5,7 @@ https://goo.gl/images/tL141f
 
 # Install Additional Packages
 su -
-apt install sudo git vim apt-transport-https
+apt -y install sudo curl git vim apt-transport-https
 vim /etc/sudoers
 logout
 
